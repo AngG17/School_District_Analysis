@@ -7,7 +7,6 @@ After evidence of grade tampering was discovered at Thomas High School for ninth
   - How is the district summary affected?
 
 
-
   - How is the school summary affected?
 
 
