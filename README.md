@@ -4,16 +4,13 @@
 After evidence of grade tampering was discovered at Thomas High School for ninth grade students, the school board has asked for the scores for both reading and math for these students to be replaced with NaNs and provide a new summary for the district.
 
 ### Results
+
   - How is the district summary affected?
   
-    The district summary isn't affected as the number of students didn't change.
-    
-    Original:
-
-![original district summary](https://user-images.githubusercontent.com/95720986/150648711-66069030-a452-42c7-9a93-ee9d7165b06f.png)
-
-
-    Revised:
+    The district summary wasn't affected all that greatly by removing the scores for the ninth grade students at Thomas High School.  
+    - There was 0.1% decrease in both average math score and overall passing percentage
+    - Average reading score stayed the same
+    - There was a decrease of 0.2% for the passing math percentage and 0.3% decrease for passing reading percentage
 
 ![revised district summary](https://user-images.githubusercontent.com/95720986/150648726-3e7588a0-a054-408d-ae59-1a5fab48e813.png)
 
@@ -22,73 +19,43 @@ After evidence of grade tampering was discovered at Thomas High School for ninth
     
     All the scores for Thomas High School changed in the school summary, but no other schools were affected.
 
-    Original:
-
-![original school summary](https://user-images.githubusercontent.com/95720986/150648827-ea849838-7dd7-44a8-a0cc-901e73df6b94.png)
-
-    Revised:
-
 ![revised school summary](https://user-images.githubusercontent.com/95720986/150648876-b4c8562c-6bc4-4b30-a435-f40b2ee08789.png)
 
 
   - How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
 
-    When replacing the math and reading scores for ninth graders, the only difference is that 'nan' will be displayed for the scores in only that column and row.  No other scores were affected.
+    When replacing the math and reading scores for ninth graders, the overall passing percent increased and they maintained second place as one of the top schools.
     
-  - How does replacing the ninth grade scores affect the following:
-    - Math and reading scores by grade
+    ![revised top schools](https://user-images.githubusercontent.com/95720986/150695251-d4082fb2-e991-4fd9-b415-597e8bf01ad8.png)
 
-      Original math:
+    
+## How does replacing the ninth grade scores affect the following:
 
-![original math scores by grade](https://user-images.githubusercontent.com/95720986/150649564-3ce73cb9-b4cc-4b56-b81e-3f9ce1e62043.png)
-      
-      Original reading:
+### Math and reading scores by grade
 
-![original reading scores by grade](https://user-images.githubusercontent.com/95720986/150649587-2e251167-e407-4c9c-b62d-87e2f373d6ab.png)
-
-      Revised math:
-
-![revised math scores by grade](https://user-images.githubusercontent.com/95720986/150649615-602aa933-a55a-446f-9d9c-c19318304656.png)
-      
-      Revised reading:
-
-![revised reading scores by grade](https://user-images.githubusercontent.com/95720986/150649628-827cba53-4749-49d0-9dcf-e9123b242d14.png)
+The scores for each individual school and grade level remained unchanged, except for the removal of scores for ninth graders at Thomas High School.
 
 
+### Scores by school spending
 
-    - Scores by school spending
+The scores within the middle spending ranges per student increased for both math and reading. 
 
-       Original spending:
-
-![original spending range](https://user-images.githubusercontent.com/95720986/150649847-0394574b-13f2-4bb5-8690-205735a60155.png)
-
-       Revised spending:
+![revised spending range](https://user-images.githubusercontent.com/95720986/150696278-d59e56f8-0d6e-408e-b354-d5186a96d6b5.png)
 
 
+### Scores by school size
+
+The scores by school size were unchanged.  Medium sized schools have a slight edge over small schools.
+
+![revised school size](https://user-images.githubusercontent.com/95720986/150696392-bf9d3e29-4f1d-4730-aca7-e613c2c77aa8.png)
 
 
+### Scores by school type
 
-    - Scores by school size
+The scores by school type were unchanged.  Charter schools performed better than district schools.
 
-       Original size:
-
-![original school size](https://user-images.githubusercontent.com/95720986/150649972-436080ee-8932-4da7-afe7-ffc4f6b731ed.png)
-
-       Revised size:
-
-
-
-
-
-    - Scores by school type
-
-        Original by type:
-
-![original type](https://user-images.githubusercontent.com/95720986/150650090-cc1ba86f-b13f-4f52-86e9-6d19de19d143.png)
-
-        Revised by type:
-
-
+![revised type](https://user-images.githubusercontent.com/95720986/150696469-87945edd-444e-400d-b0a8-2b6b52c5e884.png)
 
 
 ## Summary
+When ninth grade scores were removed, the Overall Passing % for Thomas High School increased.  Since it is unknown which of the student grades had been altered, it was necessary to remove all of the scores for the entire grade.  This new percentage might be an exaggeration of actual performance and not accurately reflect how successful this school is.  The difference isn't too significant, so it didn't change many of the district wide results.  
